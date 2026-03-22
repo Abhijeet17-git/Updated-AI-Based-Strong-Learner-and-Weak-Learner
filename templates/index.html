@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Student - Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>KNOW YOUR STUDENT</h1>
+        </div>
+        <p>Student Performance Analysis System (Standalone Version)</p>
+    </header>
+
+    <main class="container">
+        <div class="top-row">
+            <section class="card">
+                <h2>Student Data Submission</h2>
+                <div class="tabs">
+                    <button class="tab-btn active" id="tab-form" onclick="switchTab('form')">Form Input</button>
+                    <button class="tab-btn" id="tab-bulk" onclick="switchTab('bulk')">Bulk Upload</button>
+                </div>
+
+                <div id="form-input" class="tab-content">
+                    <div class="input-group">
+                        <label><i class="far fa-user"></i> Student Name</label>
+                        <input type="text" id="studentName" placeholder="Enter student name">
+                    </div>
+                    
+                    <div style="display: flex; gap: 10px;">
+                        <div class="input-group" style="flex: 2;">
+                            <label><i class="fas fa-file-alt"></i> Midterm Marks</label>
+                            <input type="number" id="midtermMarks" placeholder="Obtained">
+                        </div>
+                        <div class="input-group" style="flex: 1;">
+                            <label>Out Of</label>
+                            <input type="number" id="midtermTotal" placeholder="Total">
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 10px;">
+                        <div class="input-group" style="flex: 2;">
+                            <label><i class="fas fa-medal"></i> Internal Marks</label>
+                            <input type="number" id="internalMarks" placeholder="Obtained">
+                        </div>
+                        <div class="input-group" style="flex: 1;">
+                            <label>Out Of</label>
+                            <input type="number" id="internalTotal" placeholder="Total">
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fas fa-percent"></i> Attendance (%)</label>
+                        <input type="number" id="attendance" placeholder="e.g., 85">
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fas fa-book-reader"></i> Study Time (Hours/Day)</label>
+                        <input type="number" id="studyTime" placeholder="e.g., 4">
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fas fa-exclamation-triangle"></i> Total Backlogs</label>
+                        <input type="number" id="backlogs" placeholder="0" min="0">
+                    </div>
+                    <button class="analyze-btn" onclick="generatePrediction()">
+                        <i class="fas fa-search-plus"></i> Analyze Student
+                    </button>
+                </div>
+
+                <div id="bulk-upload" class="tab-content hidden">
+                    <div class="upload-grid">
+                        <div class="upload-box" onclick="document.getElementById('csvInput').click()">
+                            <i class="fas fa-file-csv"></i>
+                            <p>Upload CSV</p>
+                            <input type="file" id="csvInput" accept=".csv" style="display:none" onchange="handleFileUpload(this)">
+                        </div>
+                        <div class="upload-box" onclick="document.getElementById('excelInput').click()">
+                            <i class="far fa-file-excel"></i>
+                            <p>Upload Excel</p>
+                            <input type="file" id="excelInput" accept=".xls,.xlsx" style="display:none" onchange="handleFileUpload(this)">
+                        </div>
+                    </div>
+                    <div id="bulk-results-container" class="hidden"></div>
+                </div>
+            </section>
+
+            <section class="card result-card-style" id="result-card" style="display: flex; flex-direction: column; max-height: 550px;">
+                <h2>Analysis Result</h2>
+                <div id="predict-display" class="empty-content" style="overflow-y: auto; flex-grow: 1; padding: 20px;">
+                    <div class="icon-circle"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Ready to Analyze</h3>
+                    <p>Results for Sub1, Sub2, etc., will appear here.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="bottom-row">
+            <section class="card info-card">
+                <h2>Performance Summary</h2>
+                <p id="summary-text" style="padding: 20px;">Insights will appear here...</p>
+            </section>
+            <section class="card info-card">
+                <h2>Improvement Strategy</h2>
+                <p id="improvement-text" style="padding: 20px;">Suggestions for weak learners will appear here...</p>
+            </section>
+        </div>
+    </main>
+    <script src="/static/script.js"></script>
+    <footer>
+    <p>&copy; <span id="current-year"></span> Student Performance Predictor. All rights reserved.</p>
+    <p style="margin-top: 5px; font-size: 0.75rem;">Developed for Academic Analysis</p>
+</footer>
+</body>
+</html>

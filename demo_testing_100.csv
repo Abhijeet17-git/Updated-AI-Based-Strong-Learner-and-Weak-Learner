@@ -1,0 +1,101 @@
+student name,subject,midterm marks,midterm total,internal marks,internal total,attendance,study time,backlogs
+Kavita Singh 1,Chemistry,83,100,19,20,82,4,0
+Neha Verma 2,Physics,27,100,6,20,51,3,5
+Priya Patil 3,Mathematics,29,100,9,20,40,1,4
+Amit Singh 4,Chemistry,98,100,18,20,91,5,0
+Ritu Singh 5,Computer Science,69,100,16,20,75,5,1
+Abhijeet Sharma 6,Mathematics,30,100,5,20,45,3,6
+Ritu Gupta 7,Mathematics,66,100,16,20,83,7,0
+Meera Sharma 8,Chemistry,98,100,14,20,90,7,0
+Rohan Kumar 9,Physics,74,100,20,20,86,8,0
+Amit Joshi 10,Biology,34,100,12,20,67,3,3
+Rohan Deshmukh 11,Biology,97,100,14,20,89,8,1
+Snehal Raina 12,Chemistry,74,100,20,20,93,5,1
+Deepak Bhujade 13,Chemistry,71,100,14,20,78,10,1
+Rohan Iyer 14,Computer Science,23,100,8,20,62,3,5
+Yash Gadkari 15,Mathematics,70,100,15,20,85,6,1
+Snehal Thorat 16,Computer Science,90,100,14,20,80,4,0
+Neha Pawar 17,Mathematics,94,100,14,20,82,10,1
+Sonal Joshi 18,Mathematics,48,100,11,20,40,3,5
+Kavita Raina 19,Chemistry,67,100,17,20,79,9,1
+Yash Thorat 20,Mathematics,75,100,15,20,80,5,0
+Manish Thorat 21,Computer Science,87,100,15,20,83,8,1
+Arjun Reddy 22,Biology,86,100,20,20,100,8,1
+Ritu Bhujade 23,Biology,89,100,18,20,81,5,0
+Deepak Verma 24,Chemistry,68,100,18,20,81,8,1
+Rahul Thorat 25,Mathematics,71,100,15,20,85,5,1
+Deepak Gadkari 26,Chemistry,97,100,18,20,92,4,1
+Sanjay Gupta 27,Biology,73,100,18,20,89,5,0
+Arjun Nair 28,Chemistry,28,100,9,20,41,2,5
+Neha Nair 29,Chemistry,84,100,16,20,78,8,0
+Kavita Gupta 30,Physics,72,100,17,20,97,4,1
+Rahul Joshi 31,Chemistry,37,100,5,20,49,3,6
+Suresh Chavan 32,Computer Science,83,100,15,20,86,10,0
+Yash Kulkarni 33,Chemistry,90,100,19,20,76,8,0
+Kavita Iyer 34,Computer Science,90,100,18,20,85,4,1
+Snehal Thorat 35,Chemistry,21,100,6,20,55,3,4
+Neha Reddy 36,Mathematics,75,100,18,20,75,5,1
+Kavita Pawar 37,Physics,78,100,17,20,78,10,1
+Deepak Gadkari 38,Chemistry,85,100,19,20,82,5,0
+Snehal Sharma 39,Computer Science,90,100,19,20,90,9,1
+Arjun Thorat 40,Biology,91,100,18,20,86,5,0
+Meera Raina 41,Physics,83,100,16,20,87,6,1
+Sanjay Bhujade 42,Physics,66,100,20,20,99,6,0
+Sanjay Joshi 43,Biology,23,100,11,20,50,3,2
+Rohan Gadkari 44,Chemistry,23,100,8,20,65,3,4
+Vikram Raina 45,Biology,71,100,19,20,86,7,0
+Pooja Verma 46,Physics,68,100,19,20,75,7,1
+Abhijeet Chavan 47,Physics,94,100,20,20,94,10,1
+Snehal Reddy 48,Mathematics,50,100,6,20,51,1,5
+Vikram Singh 49,Biology,74,100,14,20,82,8,1
+Sonal Raina 50,Physics,85,100,19,20,83,7,0
+Neha Chavan 51,Biology,68,100,16,20,95,10,1
+Snehal Sharma 52,Mathematics,78,100,17,20,78,5,0
+Amit Raina 53,Computer Science,95,100,20,20,100,7,0
+Sonal Iyer 54,Mathematics,81,100,14,20,77,7,0
+Neha Singh 55,Biology,20,100,6,20,67,1,3
+Vikram Joshi 56,Computer Science,33,100,5,20,43,3,3
+Abhijeet Shinde 57,Physics,65,100,16,20,99,6,0
+Pooja Raina 58,Chemistry,86,100,14,20,99,8,1
+Vikram Nair 59,Computer Science,96,100,19,20,79,7,1
+Suresh Pawar 60,Mathematics,90,100,17,20,95,4,0
+Amit Bhujade 61,Chemistry,98,100,16,20,98,7,1
+Yash More 62,Mathematics,69,100,20,20,96,6,1
+Meera Patil 63,Computer Science,81,100,18,20,87,6,0
+Amit Iyer 64,Chemistry,27,100,7,20,44,2,3
+Neha Pawar 65,Physics,88,100,18,20,89,8,0
+Neha Pawar 66,Mathematics,93,100,16,20,78,10,1
+Amit Shinde 67,Mathematics,71,100,14,20,94,4,0
+Rohan Pawar 68,Biology,27,100,6,20,64,2,5
+Anjali Kumar 69,Physics,91,100,20,20,78,5,1
+Snehal Singh 70,Chemistry,33,100,6,20,61,3,6
+Yash Kumar 71,Computer Science,97,100,19,20,87,5,1
+Yash Singh 72,Biology,74,100,16,20,82,4,1
+Sanjay Chavan 73,Biology,25,100,11,20,63,1,6
+Sonal Pawar 74,Biology,96,100,14,20,97,8,1
+Anjali Iyer 75,Biology,43,100,7,20,44,2,5
+Sanjay Iyer 76,Mathematics,75,100,18,20,85,4,1
+Manish Verma 77,Biology,68,100,18,20,87,9,0
+Meera Reddy 78,Physics,76,100,15,20,90,10,0
+Neha Shinde 79,Computer Science,76,100,14,20,81,7,1
+Abhijeet Verma 80,Biology,95,100,19,20,81,6,1
+Neha Nair 81,Mathematics,28,100,5,20,66,2,3
+Amit Bhujade 82,Physics,40,100,5,20,56,3,2
+Sonal Verma 83,Physics,98,100,15,20,87,5,0
+Rahul Kulkarni 84,Physics,74,100,16,20,95,5,0
+Manish Pawar 85,Computer Science,91,100,17,20,94,7,0
+Rahul Reddy 86,Computer Science,28,100,9,20,42,1,4
+Ritu More 87,Mathematics,85,100,15,20,79,6,0
+Vikram Joshi 88,Physics,70,100,16,20,99,6,1
+Arjun Patil 89,Chemistry,72,100,20,20,98,4,0
+Yash Deshmukh 90,Mathematics,49,100,10,20,45,2,4
+Snehal More 91,Physics,81,100,18,20,79,10,1
+Neha Raina 92,Mathematics,25,100,10,20,43,1,4
+Amit Raina 93,Biology,35,100,10,20,58,1,6
+Deepak Gadkari 94,Physics,82,100,18,20,98,7,0
+Rahul Singh 95,Physics,67,100,16,20,84,7,1
+Rahul Bhujade 96,Physics,96,100,19,20,86,5,1
+Rahul Pawar 97,Mathematics,39,100,9,20,47,2,6
+Sonal Chavan 98,Computer Science,87,100,20,20,86,10,1
+Deepak More 99,Biology,24,100,5,20,64,3,5
+Rahul Gupta 100,Physics,37,100,8,20,48,3,3
